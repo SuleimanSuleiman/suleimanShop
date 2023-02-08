@@ -1,0 +1,83 @@
+.body{
+    margin-top: 24px;
+    background-color: #ffa414;
+    border: 2px solid #000;
+    border-radius: 8px;
+}
+.body .title{
+    text-align: center;
+    border-bottom: 2px solid;
+  font-size: 20px;
+  font-weight: bold;
+}
+.body .button{
+    padding: 12px;
+    text-align: end;
+}
+
+.body .button .clearButton{
+    border: 0;
+    padding: 5px 18px;
+    font-weight: bold;
+    border-radius: 9px;
+    cursor: pointer;
+    background: #ea2e0c;
+    color: #fff;
+}
+
+.body .bodyItem{
+    padding: 12px 67px;
+}
+
+.body .bodyItem .item{
+    display: flex;
+    align-items: center;
+}
+
+.body .bodyItem .item .image{
+    margin-right: 20px ;
+    flex: 10%;
+}
+
+.body .bodyItem .item img{
+    width: 200px;
+}
+
+.body .bodyItem .item .data{
+    margin-right: 100px;
+    flex: 30%;
+}
+.body .bodyItem .item .buttonIncAndDec {
+    margin-right: 100px;
+    flex: 10%;
+}
+
+.body .bodyItem .item .buttonIncAndDec button{
+    padding: 0px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    background: green;
+    border: 0;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 22px;
+}
+
+.body .bodyItem .item .buttonIncAndDec .decrease{
+    background: #ea2e0c;
+    margin-left: 12px;
+}
+
+.body .bodyItem .item .price {
+    flex: 10%
+}
+.body .bodyItem .item .price .number{
+    font-weight: bold;
+    margin: 10px;
+    font-size: 21px;
+}
+
+.body .bodyItem .item .price .priceSpan{
+    margin: 10px;
+    font-weight: bold;
+}

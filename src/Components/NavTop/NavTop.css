@@ -1,0 +1,43 @@
+.NavTop{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #000;
+}
+
+.NavTop .logo{
+    flex: 3;
+}
+
+.NavTop .logo a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: #fff;
+}
+
+.NavTop .listNav{
+    flex: 9;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.NavTop .listNav li{
+    margin: 0 10px;
+}
+.NavTop .listNav li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+.NavTop .listNav li a.active{
+    color: rgb(0, 0, 199);
+    font-weight: bold;
+    font-size: 18px;
+}
+

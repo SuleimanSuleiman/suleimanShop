@@ -1,0 +1,8 @@
+.containerImg{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.container img:first-of-type{
+    margin-right: 12px;
+}

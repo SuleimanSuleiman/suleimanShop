@@ -1,0 +1,67 @@
+.containerCom   {
+    margin-top: 24px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffa414;
+    padding: 12px;
+}
+
+.containerLogin{
+    background: #ccc;
+    padding: 14px;
+    border-radius: 12px;
+    height: 295px;
+}
+.containerLogin .title{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: 18px;
+}
+
+.containerLogin .title p{
+    margin: 0;
+}
+
+.containerCom .name{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px 0;
+}
+.containerCom .name label,
+.containerCom .loginDiv{
+    margin-top: 20px;
+}
+.containerCom .name input{
+    margin-top: 2px;
+}
+
+.containerCom .name #loginInput{
+    border: 2px solid #ccc;
+    outline: none;
+    border-radius: 12px;
+    padding: 4px;
+    padding-left: 12px;
+    font-size: 17px;
+}
+.containerCom .name #loginInput:focus{
+    border: 2px solid #ffa414;
+}
+
+.containerCom .loginDiv{
+    text-align: center;
+}
+
+.containerCom .Login{
+    border: 0;
+    border-radius: 12px;
+    padding: 5px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    background: #ffa414;
+}
